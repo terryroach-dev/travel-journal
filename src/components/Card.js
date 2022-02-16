@@ -4,7 +4,7 @@ import placeholder from "../images/placeholder.png"
 function Card(props) {
     return (
         <div className="card">
-            <img src={`../images/${props.item.imageUrl}`} className="card-image" />
+            <img src={`./images/${props.item.imageUrl}`} className="card-image" />
             <div className="card-info">
                 <div className="location-info">
                     <img src={placeholder} className="placeholder-img" />
