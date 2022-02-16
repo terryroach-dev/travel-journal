@@ -1,4 +1,5 @@
 import React from "react";
+import placeholder from "../images/placeholder.png"
 
 function Card(props) {
     return (
@@ -6,7 +7,7 @@ function Card(props) {
             <img src={`../images/${props.item.imageUrl}`} className="card-image" />
             <div className="card-info">
                 <div className="location-info">
-                    <img src="../images/placeholder.png" className="placeholder-img" />
+                    <img src={placeholder} className="placeholder-img" />
                     <h4 className="location-info__location">{props.item.location}</h4>
                     <a href={props.item.googleMapsUrl} className="location-info__link">View on Google Maps</a>
                 </div>
